@@ -95,6 +95,10 @@ body {
                 }
                 color: $very_dark_desaturated_blue;
                 cursor: pointer;
+                transition: 0.2s;
+                &:hover {
+                  color: $soft_red;
+                }
               }
               img {
                 cursor: pointer;
